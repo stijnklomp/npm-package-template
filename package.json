@@ -13,8 +13,15 @@
         "build/**/*"
     ],
     "scripts": {
-        "test": "jest test",
-        "test:coverage": "jest --coverage"
+		"start": "node build/index.js",
+		"build": "tsc",
+		"clean": "rm -rf build",
+		"test": "jest test",
+		"test:watch": "jest --watch",
+		"test:coverage": "jest --coverage",
+		"lint": "eslint . --ext .ts",
+		"docs": "typedoc",
+		"prepublish": "npm run build"
     },
     "devDependencies": {
         "@types/jest": "^29.5.1",
