@@ -1,5 +1,5 @@
 {
-	"extends": "./tsconfig.base.json",
+	"extends": "@stijnklomp/eslint-config/tsconfig.base",
 	"include": ["src", "global.d.ts"],
-	"exclude": ["node_modules"]
+	"exclude": ["node_modules", "build"]
 }
