@@ -4,4 +4,4 @@ build
 doc
 public/*
 !public/index.html
-.vscode/
+.vscode

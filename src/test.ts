@@ -1,10 +1,11 @@
-var test = {
+const test = {
 	a: "test"
-};
-
-let variableNameA = "";
+}
 
 console.log(test)
+
+const variableNameA = ""
+
 console.log(variableNameA)
 
 export default {
