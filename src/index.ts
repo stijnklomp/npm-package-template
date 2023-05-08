@@ -1,12 +1,26 @@
+import Test from "test"
+
+console.log(Test)
+
 // Reverse string recursive function
+function test() {
+    console.log("")
+}
+
+const testVariable: string = ""
+
+const object = {
+    test: "",
+}
+
 const reverseString = (originalString: string, reversedString: string = "", i: number = 1): string =>
-originalString.length === reversedString.length
-	? reversedString
-	: reverseString(
-		originalString,
-		reversedString + originalString[originalString.length - i],
-		i + 1
-	); // Tail-recursive (Tail call optimized function)
+    originalString.length === reversedString.length
+        ? reversedString
+        : reverseString(
+            originalString,
+            reversedString + originalString[originalString.length - i],
+            i + 1
+        ); // Tail-recursive (Tail call optimized function)
 
 // Is word a palindrome
 // 1) Split word
