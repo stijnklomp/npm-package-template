@@ -7,11 +7,13 @@ function test() {
 	console.log("")
 }
 
+test()
+
 // const testVariable: string = ""
 
-const object = {
-	test: ""
-}
+// const object = {
+// 	test: ""
+// }
 
 const reverseString = (
 	originalString: string,
