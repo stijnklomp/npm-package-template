@@ -1,3 +1,5 @@
+/// <reference types="node" />
+
 const test = {
 	a: "test"
 }

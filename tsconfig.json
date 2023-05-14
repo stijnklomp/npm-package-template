@@ -1,5 +1,8 @@
 {
-	"extends": "@stijnklomp/eslint-config/tsconfig.base",
+	"extends": "./node_modules/stijnklomp-eslint-config/tsconfig.base",
+	"compilerOptions": {
+		"lib": ["dom"]
+	},
 	"include": ["src", "global.d.ts"],
-	"exclude": ["node_modules", "build"]
+	"exclude": ["node_modules", "build", ".husky"]
 }

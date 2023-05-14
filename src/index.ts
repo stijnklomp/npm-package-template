@@ -1,3 +1,5 @@
+/// <reference types="node" />
+
 import Test from "test"
 
 console.log(Test)

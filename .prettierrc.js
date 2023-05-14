@@ -1,1 +1,1 @@
-module.exports = require("@stijnklomp/eslint-config/prettier")
+module.exports = require("./node_modules/stijnklomp-eslint-config/prettier")

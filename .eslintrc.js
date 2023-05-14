@@ -1,6 +1,6 @@
 module.exports = {
 	root: true,
-	extends: ["@stijnklomp/eslint-config/eslint"],
+	extends: ["./node_modules/stijnklomp-eslint-config/eslint"],
 	parser: "@typescript-eslint/parser",
 	plugins: ["@typescript-eslint", "prettier"],
 	parserOptions: {
