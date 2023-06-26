@@ -1,5 +1,5 @@
 {
-	"extends": "./node_modules/stijnklomp-eslint-config/tsconfig.base",
+	"extends": ["./node_modules/stijnklomp-eslint-config/tsconfig.base"],
 	"compilerOptions": {
 		"lib": ["dom"]
 	},
