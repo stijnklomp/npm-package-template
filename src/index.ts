@@ -1,22 +1,3 @@
-/// <reference types="node" />
-
-import Test from "test"
-
-console.log(Test)
-
-// Reverse string recursive function
-function test() {
-	console.log("")
-}
-
-test()
-
-// const testVariable: string = ""
-
-// const object = {
-// 	test: ""
-// }
-
 const reverseString = (
 	originalString: string,
 	reversedString: string = "",
