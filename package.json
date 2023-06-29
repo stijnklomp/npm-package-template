@@ -28,13 +28,14 @@
 		"test:coverage": "jest --coverage",
 		"lint": "eslint .",
 		"docs": "typedoc",
-		"prepublish": "npm run dist",
+		"prepublish": "npm run build",
 		"prepare": "husky install"
 	},
 	"parser": "@babel/eslint-parser",
 	"devDependencies": {
 		"@babel/eslint-parser": "^7.21.8",
 		"@babel/preset-typescript": "^7.21.5",
+		"@types/jest": "^29.5.2",
 		"@types/node": "^20.1.0",
 		"@typescript-eslint/eslint-plugin": "^5.59.2",
 		"@typescript-eslint/parser": "^5.59.2",

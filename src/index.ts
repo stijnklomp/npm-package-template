@@ -1,6 +1,6 @@
 /// <reference types="node" />
 
-import Test from "./test.ts"
+import Test from "./test.js"
 
 console.log(Test)
 
