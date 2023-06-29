@@ -17,18 +17,18 @@
 		"url": "ssh://git@github.com:stijnklomp/package-template.git"
 	},
 	"files": [
-		"build/**/*"
+		"dist/**/*"
 	],
 	"scripts": {
-		"start": "node build/index.js",
+		"start": "node dist/mjs/index.js",
 		"build": "rm -fr dist/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup",
-		"clean": "rm -rf build",
+		"clean": "rm -rf dist",
 		"test": "jest test",
 		"test:watch": "jest --watch",
 		"test:coverage": "jest --coverage",
 		"lint": "eslint .",
 		"docs": "typedoc",
-		"prepublish": "npm run build",
+		"prepublish": "npm run dist",
 		"prepare": "husky install"
 	},
 	"parser": "@babel/eslint-parser",

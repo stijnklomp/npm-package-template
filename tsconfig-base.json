@@ -17,9 +17,10 @@
 		"skipLibCheck": true,
 		"strict": true,
 		"traceResolution": false,
-		"types": ["node", "jest"]
+		"types": ["node", "jest"],
+		"forceConsistentCasingInFileNames": true
 	},
 	"compileOnSave": false,
-	"exclude": ["node_modules", "dist", "build", ".husky"],
+	"exclude": ["node_modules", "dist", ".husky"],
 	"include": ["src", "global.d.ts"]
 }
