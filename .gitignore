@@ -5,3 +5,4 @@ doc
 public/*
 !public/index.html
 .vscode
+/coverage
